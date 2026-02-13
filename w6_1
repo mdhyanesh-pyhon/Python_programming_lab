@@ -1,0 +1,4 @@
+s=input("enter a string: ")
+l=input("which letter is count: ")
+
+print(l,"occurs",s.count(l),"time in the ",s)
