@@ -1,0 +1,4 @@
+name=input("enter a string: ")
+replace=name.replace('a','x')
+print("before replace:",name)
+print("after replace:",replace)
