@@ -1,0 +1,7 @@
+def display(My_list):
+    print("Elements of the list are:")
+    for item in My_list:
+        print(item)
+
+numbers = [10, 20, 30, 40, 50]
+display(numbers)
