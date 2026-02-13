@@ -1,0 +1,13 @@
+a,b,c = map(int,input("Enter the values of a,b and c seperate with (,): ").split(","))
+if a>=b and a>=c:
+    print(f"{a} is greatest number")
+elif b>=a and b>=c:
+    print(f"{b} is greatest number")
+else:
+    print(f"{c} is greatest number")
+if a<=b and a<=c:
+    print(f"{a} is smallest number")
+elif b<=a and b<=c:
+    print(f"{b} is smallest number")
+else:
+    print(f"{c} is smallest number")
