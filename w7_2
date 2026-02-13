@@ -1,0 +1,9 @@
+numbers = []
+n = int(input("Enter number of elements: "))
+for i in range(n):
+    value = int(input("Enter element: "))
+    numbers.append(value)
+largest = max(numbers)
+smallest = min(numbers)
+print("Largest number:", largest)
+print("Smallest number:", smallest)
