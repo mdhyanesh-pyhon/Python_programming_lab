@@ -1,0 +1,6 @@
+name=input("enter a string: ")
+n=name[::-1]
+if name==n:
+   print("palindrom")
+else:
+   print("not palindrom")
