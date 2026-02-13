@@ -1,0 +1,8 @@
+name=input("enter a string: ")
+a=input("what to replace:")
+b=input("replace with?: ")
+
+r=name.replace(a,b)
+
+print("before replace:",name)
+print("after replace:",r)
